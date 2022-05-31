@@ -9,13 +9,13 @@ function crearGato(nombre, edad) {
   // Devuelve el objeto
   // Tu código:
   var obj = { 
-    nombre : nombre ,
-                     }
-obj.edad = edad ;
+    nombre : nombre
+  }
+  obj.edad = edad ;
 
-obj.meow = function(){return "Meow!"}
+  obj.meow = function(){return "Meow!"}
 
-return obj;
+  return obj
 
    }
 
